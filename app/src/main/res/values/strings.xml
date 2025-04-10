@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Smart_City_Pulse</string>
+    <string name="file_complaint">📍 File Complaint</string>
+
+    <string-array name="status_options">
+        <item>All</item>
+        <item>Resolved</item>
+        <item>In Progress</item>
+        <item>Pending Review</item>
+        <item>Open</item>
+    </string-array>
+
+    <string-array name="complaint_categories">
+        <item>Road Issue</item>
+        <item>Water Supply Issue</item>
+        <item>Electricity Problem</item>
+        <item>Sanitation Issue</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Priority Levels -->
+    <string-array name="priority_levels">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="feedback_categories">
+        <item>App Experience</item>
+        <item>Complaint</item>
+        <item>Suggestion</item>
+        <item>Bug Report</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="development_status">
+        <item>Excellent</item>
+        <item>Good</item>
+        <item>Average</item>
+        <item>Poor</item>
+    </string-array>
+
+
+
+
+</resources>

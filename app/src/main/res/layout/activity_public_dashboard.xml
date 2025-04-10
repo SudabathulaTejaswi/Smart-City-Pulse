@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <!-- Feedback Category Spinner -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Feedback Category"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <Spinner
+        android:id="@+id/feedbackCategorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="8dp" />
+
+    <!-- Feedback Input Field -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Feedback"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/feedbackInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your feedback here..."
+        android:minHeight="100dp"
+        android:background="@android:drawable/editbox_background"
+        android:padding="10dp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:lines="4" />
+
+    <!-- Submit Feedback Button -->
+    <Button
+        android:id="@+id/submitFeedbackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/purple_500"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Emergency Numbers Button -->
+    <Button
+        android:id="@+id/btnEmergencyNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Numbers"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/teal_700"
+        android:padding="12dp"
+        android:layout_marginTop="12dp" />
+
+    <!-- Developers Button -->
+    <Button
+        android:id="@+id/btnDevelopers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meet the Developers"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/black"
+        android:padding="12dp"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
